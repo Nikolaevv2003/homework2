@@ -10,6 +10,9 @@ int main()
 		if (x != 1) {
 			cout << "y= " << (y = (x * x - 2 * x + 2) / (x - 1)) << endl;
 		}
+                else {
+                      cout << " the function is invalid in x = 1" << endl;
+                }
 	}
 	system("pause");
 	return 0;
